@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: borderbox;
+    box-sizing: border-box;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -76,7 +76,6 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero style End */
  .hero-form {
         border: 3px solid #024e76;
         background-color: #fce138;
@@ -106,14 +105,24 @@ section {
      .hero-form label {
         margin: 0 5px;
     }
+    .hero-form button {
+    color:#fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    }
+    /* Hero End */
     .intro {
         text-align: center;
-    }
+        
+         }
     .intro p {
         line-height: 1.7;
         color:#39a6b2;
         width: 80%;
         font-size: 20px;
+        display: inline-block;
     }
     .intro h2 {
         font-size: 55px;
@@ -122,7 +131,21 @@ section {
         padding: 0 100px 20px 100px;
         border-bottom: 3px solid;
         border-color: #fce138;
-        /* add this alongside your other declarations */
+    }
+     .intro h2 {   
+    /* add this alongside your other declarations */
         display: inline-block;
         margin: 0 auto;
     }
+.steps {
+    text-align: center;
+   background-color:   #fce138;
+}
+.steps h2 {
+    font-size: 55;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+}
